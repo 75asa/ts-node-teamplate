@@ -1,0 +1,30 @@
+{
+  "name": "ts-node-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/75asa/ts-node-teamplate.git",
+  "author": "75asa <75asa.me@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "dev:w": "ts-node-dev --respawn ./src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint --ext .js,.ts --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.1.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
